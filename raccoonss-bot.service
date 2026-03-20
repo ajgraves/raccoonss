@@ -1,0 +1,16 @@
+[Unit]
+Description=RaccoonSS (Discord Bot) RSS Bot
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /path/to/your/raccoonss.py
+Restart=on-failure
+RestartSec=5s
+StandardOutput=journal
+StandardError=journal
+
+# Environmental variables (modify as needed)
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=default.target
