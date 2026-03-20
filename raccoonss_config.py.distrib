@@ -1,0 +1,8 @@
+# Database configuration - replace with your actual credentials
+DB_HOST = 'hostname'
+DB_USER = 'username'
+DB_PASSWORD = 'passowrd'
+DB_NAME = 'dbname'
+
+# Bot configuration - replace with your bot token
+BOT_TOKEN = 'TOKEN'
